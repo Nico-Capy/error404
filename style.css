@@ -1,1 +1,46 @@
-Hello there
+body{
+    background-image: url(dave.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 28%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#github{
+    margin: auto;
+    background-color: rgb(11, 75, 194);
+    height: 41px;
+    border: 0px;
+    border-radius: 12px;
+}
+
+#github:hover{
+    cursor: pointer;
+    background-color:rgb(11, 75, 194);
+    border-radius: 90%;
+    height: 200px;
+    width: 200px;
+}
+
+#git{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color:aliceblue;
+    vertical-align:bottom;
+}
